@@ -62,9 +62,9 @@ Set your API key as an environment variable:
 export REPLICATE_API_KEY="your-api-key-here"
 ```
 
-### From marketplace (once published):
+### From marketplace:
 ```bash
-/plugin marketplace add simon-username/claude-plugins
+/plugin marketplace add simonlee2/claude-plugins
 /plugin install creative-tools@simon-plugins
 ```
 
@@ -181,7 +181,7 @@ MIT License - see LICENSE file for details
 
 ## Support
 
-For issues or questions, open an issue in the repository.
+For issues or questions, open an issue at https://github.com/simonlee2/claude-plugins/issues
 
 ---
 

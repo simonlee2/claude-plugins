@@ -62,9 +62,9 @@ Automatically activates when you need to create or improve PR descriptions.
 
 ## Installation
 
-### From marketplace (once published):
+### From marketplace:
 ```bash
-/plugin marketplace add simon-username/claude-plugins
+/plugin marketplace add simonlee2/claude-plugins
 /plugin install git-workflow@simon-plugins
 ```
 
@@ -128,4 +128,4 @@ MIT License - see LICENSE file for details
 
 ## Support
 
-For issues or questions, open an issue in the repository.
+For issues or questions, open an issue at https://github.com/simonlee2/claude-plugins/issues

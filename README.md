@@ -40,9 +40,8 @@ AI-powered creative tools using state-of-the-art models.
 
 1. **Add the marketplace:**
    ```bash
-   /plugin marketplace add simon-username/claude-plugins
+   /plugin marketplace add simonlee2/claude-plugins
    ```
-   *(Replace `simon-username` with your GitHub username once you push this to GitHub)*
 
 2. **Install plugins:**
    ```bash
@@ -58,7 +57,7 @@ AI-powered creative tools using state-of-the-art models.
 
 Anyone can install your plugins by:
 ```bash
-/plugin marketplace add simon-username/claude-plugins
+/plugin marketplace add simonlee2/claude-plugins
 /plugin install git-workflow@simon-plugins
 ```
 
@@ -116,14 +115,14 @@ The `nanobanana-image-gen` skill activates automatically when you request image 
 
 3. **Push to GitHub:**
    ```bash
-   git remote add origin git@github.com:your-username/claude-plugins.git
+   git remote add origin git@github.com:simonlee2/claude-plugins.git
    git branch -M main
    git push -u origin main
    ```
 
 4. **Install from GitHub:**
    ```bash
-   /plugin marketplace add your-username/claude-plugins
+   /plugin marketplace add simonlee2/claude-plugins
    ```
 
 ## Directory Structure
@@ -202,4 +201,9 @@ When updating plugins:
 
 ## License
 
-MIT (or your preferred license)
+MIT License - See [LICENSE](LICENSE) file for details.
+
+## Links
+
+- **GitHub Repository:** https://github.com/simonlee2/claude-plugins
+- **Installation:** `/plugin marketplace add simonlee2/claude-plugins`
