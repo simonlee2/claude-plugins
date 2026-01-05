@@ -1,0 +1,9 @@
+{
+  "name": "git-workflow",
+  "description": "Git workflow automation including smart commits and PR description generation",
+  "version": "1.0.0",
+  "author": {
+    "name": "Simon"
+  },
+  "license": "MIT"
+}

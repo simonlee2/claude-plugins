@@ -1,0 +1,9 @@
+{
+  "name": "creative-tools",
+  "description": "AI-powered creative tools for image generation and manipulation",
+  "version": "1.0.0",
+  "author": {
+    "name": "Simon"
+  },
+  "license": "MIT"
+}

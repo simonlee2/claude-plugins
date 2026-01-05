@@ -1,0 +1,34 @@
+{
+  "name": "simon-plugins",
+  "owner": {
+    "name": "Simon"
+  },
+  "metadata": {
+    "description": "Personal collection of Claude Code plugins for development workflow and creative tools",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "git-workflow",
+      "source": "./plugins/git-workflow",
+      "description": "Git workflow automation including smart commits and PR description generation",
+      "version": "1.0.0",
+      "author": {
+        "name": "Simon"
+      },
+      "category": "productivity",
+      "tags": ["git", "workflow", "pr", "commits"]
+    },
+    {
+      "name": "creative-tools",
+      "source": "./plugins/creative-tools",
+      "description": "AI-powered creative tools for image generation and manipulation using Google's Nanobanana model",
+      "version": "1.0.0",
+      "author": {
+        "name": "Simon"
+      },
+      "category": "creative",
+      "tags": ["image-generation", "ai", "replicate", "creative"]
+    }
+  ]
+}
