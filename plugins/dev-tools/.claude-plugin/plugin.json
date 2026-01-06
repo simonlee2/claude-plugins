@@ -1,0 +1,9 @@
+{
+  "name": "dev-tools",
+  "description": "Developer tools and utilities for software engineering workflows",
+  "version": "1.0.0",
+  "author": {
+    "name": "Simon"
+  },
+  "license": "MIT"
+}

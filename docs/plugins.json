@@ -10,20 +10,17 @@
       "id": "git-workflow",
       "name": "Git Workflow",
       "namespace": "simon-plugins",
-      "icon": "🔧",
-      "tagline": "Streamline your git operations with intelligent automation",
-      "description": "Git workflow automation tools for efficient development. Smart commit messages, comprehensive PR descriptions, and seamless push operations.",
+      "description": "Git workflow automation including smart commits and PR description generation",
       "version": "1.0.0",
       "author": "Simon",
-      "categories": ["productivity", "git", "workflow"],
       "installation": "/plugin install git-workflow@simon-plugins",
       "components": {
         "commands": [
           {
             "name": "commit-push",
             "fullName": "/git-workflow:commit-push",
-            "description": "Analyzes your changes, creates a commit with an intelligent message, and pushes to remote - all in one command",
-            "usage": "Simply run the command and Claude will handle the rest",
+            "description": "Create a git commit and push to the remote repository without creating a PR",
+            "usage": "Run the command and Claude will handle the rest",
             "example": "/git-workflow:commit-push"
           }
         ],
@@ -31,56 +28,87 @@
           {
             "name": "pr-description-writer",
             "fullName": "git-workflow:pr-description-writer",
-            "description": "Generates comprehensive, reviewer-friendly PR descriptions from git commits. Includes context (why), implementation details (how), file prioritization for large PRs, and testing strategy.",
-            "usage": "Just ask: \"Write a PR description for my changes\" and the skill activates automatically",
-            "features": [
-              "Extracts key changes from commit history",
-              "Provides context and rationale",
-              "Prioritizes files for review",
-              "Suggests testing approach"
-            ],
-            "example": "Write a PR description for my authentication changes"
+            "description": "This skill generates and improves GitHub pull request descriptions that help reviewers understand context and promote effective code reviews. Use this skill when creating new PRs, updating PR descriptions with new commits, or reviewing existing PR descriptions for quality. The skill analyzes git commits to extract key changes and generates descriptions with proper context (why), implementation details (how), file prioritization for large PRs, and testing strategy.",
+            "usage": "Activates automatically based on your request"
           }
         ]
-      }
+      },
+      "icon": "\ud83d\udd27",
+      "tagline": "Streamline your git operations with intelligent automation",
+      "categories": [
+        "productivity",
+        "git",
+        "workflow"
+      ]
     },
     {
       "id": "creative-tools",
       "name": "Creative Tools",
       "namespace": "simon-plugins",
-      "icon": "🎨",
-      "tagline": "AI-powered image generation and transformation",
-      "description": "State-of-the-art creative tools powered by Google's Nanobanana model via Replicate API. Generate, transform, and stylize images with natural language.",
+      "description": "AI-powered creative tools for image generation and manipulation",
       "version": "1.0.0",
       "author": "Simon",
-      "categories": ["ai", "creative", "images"],
       "installation": "/plugin install creative-tools@simon-plugins",
-      "requirements": [
-        "REPLICATE_API_KEY environment variable",
-        "Get your API key at https://replicate.com/account/api-tokens"
-      ],
       "components": {
         "skills": [
           {
             "name": "nanobanana-image-gen",
             "fullName": "creative-tools:nanobanana-image-gen",
-            "description": "Generate and edit images using Google's Nanobanana model. Supports text-to-image generation, image-to-image transformations, style transfers, and creative editing tasks.",
-            "usage": "Activates automatically when you request image generation or transformation",
+            "description": "Generate and edit images using Google's Nanobanana model via Replicate API. Use this skill when users request image generation from text descriptions, image-to-image transformations, style transfers, or any creative image editing tasks. Supports multiple input images, custom aspect ratios, and various output formats.",
+            "usage": "Activates automatically based on your request",
             "features": [
-              "Text-to-image generation",
-              "Image-to-image transformations",
-              "Style transfers and variations",
-              "Custom aspect ratios (1:1, 16:9, 9:16, 4:3, etc.)",
-              "Multiple image input support"
+              "Example requests:**",
+              "\"Generate an image of a sunset over snow-capped mountains\"",
+              "\"Create a portrait of a cat wearing a bow tie in a Victorian setting\"",
+              "\"Make me an abstract image with blue and purple swirls\"",
+              "Process:**"
             ],
             "examples": [
-              "Generate a 16:9 banner image of a sunset over mountains",
-              "Make this photo look like a watercolor painting",
-              "Create a cyberpunk version of this portrait"
+              "Generate an image of a sunset over snow-capped mountains",
+              "\"Generate an image of a sunset over snow-capped mountains\"",
+              "Create a portrait of a cat wearing a bow tie in a Victorian setting"
             ]
           }
         ]
-      }
+      },
+      "icon": "\ud83c\udfa8",
+      "tagline": "AI-powered image generation and transformation",
+      "categories": [
+        "ai",
+        "creative",
+        "images"
+      ],
+      "requirements": [
+        "REPLICATE_API_KEY environment variable",
+        "Get your API key at https://replicate.com/account/api-tokens"
+      ]
+    },
+    {
+      "id": "dev-tools",
+      "name": "Dev Tools",
+      "namespace": "simon-plugins",
+      "description": "Developer tools and utilities for software engineering workflows",
+      "version": "1.0.0",
+      "author": "Simon",
+      "installation": "/plugin install dev-tools@simon-plugins",
+      "components": {
+        "skills": [
+          {
+            "name": "create-cli",
+            "fullName": "dev-tools:create-cli",
+            "description": "This skill should be used when the user asks to \"design a CLI\", \"create command-line interface\", \"design CLI parameters\", \"plan CLI UX\", or needs help structuring command-line tool interfaces with proper arguments, flags, subcommands, and user experience patterns.",
+            "usage": "Just ask naturally and the skill activates automatically"
+          }
+        ]
+      },
+      "icon": "🛠️",
+      "tagline": "Design exceptional command-line interfaces",
+      "categories": [
+        "cli",
+        "development",
+        "design",
+        "productivity"
+      ]
     }
   ]
 }
