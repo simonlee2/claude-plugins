@@ -45,8 +45,8 @@
       "id": "creative-tools",
       "name": "Creative Tools",
       "namespace": "simon-plugins",
-      "description": "AI-powered creative tools for image generation and manipulation",
-      "version": "1.0.0",
+      "description": "AI-powered creative tools for image and video generation, plus ffmpeg toolkit",
+      "version": "1.1.0",
       "author": "Simon",
       "installation": "/plugin install creative-tools@simon-plugins",
       "components": {
@@ -95,7 +95,7 @@
           }
         ]
       },
-      "icon": "🎬",
+      "icon": "\ud83c\udfac",
       "tagline": "AI-powered image and video generation with ffmpeg toolkit",
       "categories": [
         "ai",
