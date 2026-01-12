@@ -29,6 +29,17 @@
       },
       "category": "creative",
       "tags": ["image-generation", "ai", "replicate", "creative"]
+    },
+    {
+      "name": "dev-tools",
+      "source": "./plugins/dev-tools",
+      "description": "Developer tools including CLI design and UI component skills",
+      "version": "1.0.0",
+      "author": {
+        "name": "Simon"
+      },
+      "category": "productivity",
+      "tags": ["cli", "ui", "development", "tools"]
     }
   ]
 }
