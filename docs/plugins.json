@@ -98,16 +98,23 @@
             "fullName": "dev-tools:create-cli",
             "description": "This skill should be used when the user asks to \"design a CLI\", \"create command-line interface\", \"design CLI parameters\", \"plan CLI UX\", or needs help structuring command-line tool interfaces with proper arguments, flags, subcommands, and user experience patterns.",
             "usage": "Just ask naturally and the skill activates automatically"
+          },
+          {
+            "name": "ui-skills",
+            "fullName": "dev-tools:ui-skills",
+            "description": "This skill should be used when the user asks to \"build UI\", \"create interface\", \"design components\", \"implement frontend\", or needs guidance on building accessible, performant interfaces with proper animation, typography, and component patterns. Provides opinionated constraints for building better interfaces with agents.",
+            "usage": "Just ask naturally and the skill activates automatically"
           }
         ]
       },
       "icon": "🛠️",
-      "tagline": "Design exceptional command-line interfaces",
+      "tagline": "CLI design and UI development best practices",
       "categories": [
         "cli",
+        "ui",
+        "frontend",
         "development",
-        "design",
-        "productivity"
+        "design"
       ]
     }
   ]
