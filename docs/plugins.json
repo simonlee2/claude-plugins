@@ -52,6 +52,30 @@
       "components": {
         "skills": [
           {
+            "name": "seedance-video-gen",
+            "fullName": "creative-tools:seedance-video-gen",
+            "description": "This skill should be used when the user asks to \"generate video\", \"create video\", \"make a video\", \"animate image\", \"image to video\", \"video with audio\", \"talking video\", or needs AI-powered video generation with synchronized audio, lip-syncing, and cinematic camera controls.",
+            "usage": "Just ask naturally and the skill activates automatically",
+            "features": [
+              "Example requests:**",
+              "\"Generate a video of waves crashing on a beach at sunset\"",
+              "\"Create a video of a cat playing with a ball of yarn\"",
+              "\"Make a 10-second video of a city skyline timelapse\"",
+              "Process:**"
+            ],
+            "examples": [
+              "Generate a video of waves crashing on a beach at sunset",
+              "\"Generate a video of waves crashing on a beach at sunset\"",
+              "Create a video of a cat playing with a ball of yarn"
+            ]
+          },
+          {
+            "name": "ffmpeg-toolkit",
+            "fullName": "creative-tools:ffmpeg-toolkit",
+            "description": "This skill should be used when the user asks to \"convert video\", \"trim video\", \"cut video\", \"extract audio\", \"compress video\", \"resize video\", \"create gif\", \"merge videos\", \"combine videos\", \"add audio to video\", or needs help with ffmpeg commands for video and audio processing.",
+            "usage": "Just ask naturally and the skill activates automatically"
+          },
+          {
             "name": "nanobanana-image-gen",
             "fullName": "creative-tools:nanobanana-image-gen",
             "description": "Generate and edit images using Google's Nanobanana model via Replicate API. Use this skill when users request image generation from text descriptions, image-to-image transformations, style transfers, or any creative image editing tasks. Supports multiple input images, custom aspect ratios, and various output formats.",
@@ -71,12 +95,15 @@
           }
         ]
       },
-      "icon": "\ud83c\udfa8",
-      "tagline": "AI-powered image generation and transformation",
+      "icon": "🎬",
+      "tagline": "AI-powered image and video generation with ffmpeg toolkit",
       "categories": [
         "ai",
         "creative",
-        "images"
+        "images",
+        "video",
+        "audio",
+        "ffmpeg"
       ],
       "requirements": [
         "REPLICATE_API_KEY environment variable",
@@ -107,7 +134,7 @@
           }
         ]
       },
-      "icon": "🛠️",
+      "icon": "\ud83d\udee0\ufe0f",
       "tagline": "CLI design and UI development best practices",
       "categories": [
         "cli",
