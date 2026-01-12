@@ -124,7 +124,8 @@ def generate_video(
     elapsed = time.time() - start_time
     print(f"\nGeneration completed in {elapsed:.1f} seconds")
 
-    return output
+    # Convert FileOutput object to string URL
+    return str(output)
 
 
 def download_video(url: str, output_path: str) -> str:
