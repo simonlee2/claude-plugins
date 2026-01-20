@@ -121,6 +121,12 @@
       "components": {
         "skills": [
           {
+            "name": "ios-build-test",
+            "fullName": "dev-tools:ios-build-test",
+            "description": "Use when user asks to \"build iOS app\", \"run on simulator\", \"test iOS\", \"record simulator video\", \"reset app\", \"reset onboarding\", or needs Xcode builds and simulator management.",
+            "usage": "Just ask naturally and the skill activates automatically"
+          },
+          {
             "name": "create-cli",
             "fullName": "dev-tools:create-cli",
             "description": "This skill should be used when the user asks to \"design a CLI\", \"create command-line interface\", \"design CLI parameters\", \"plan CLI UX\", or needs help structuring command-line tool interfaces with proper arguments, flags, subcommands, and user experience patterns.",
