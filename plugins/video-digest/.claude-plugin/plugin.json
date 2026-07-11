@@ -1,0 +1,9 @@
+{
+  "name": "video-digest",
+  "description": "Build a shareable web digest (per-talk TL;DR, takeaways, slides paired with narration) from videos — a long multi-talk stream, a playlist, a single video, or a folder. Umbrella skill routing to composable stages: ingest, segment, summarize, slides, site.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Simon"
+  },
+  "license": "MIT"
+}

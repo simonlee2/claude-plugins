@@ -28,3 +28,5 @@ vendor/
 
 # Git
 .git/
+__pycache__/
+*.pyc

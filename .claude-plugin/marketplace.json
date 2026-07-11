@@ -17,7 +17,12 @@
         "name": "Simon"
       },
       "category": "productivity",
-      "tags": ["git", "workflow", "pr", "commits"]
+      "tags": [
+        "git",
+        "workflow",
+        "pr",
+        "commits"
+      ]
     },
     {
       "name": "creative-tools",
@@ -28,7 +33,12 @@
         "name": "Simon"
       },
       "category": "creative",
-      "tags": ["image-generation", "ai", "replicate", "creative"]
+      "tags": [
+        "image-generation",
+        "ai",
+        "replicate",
+        "creative"
+      ]
     },
     {
       "name": "dev-tools",
@@ -39,7 +49,30 @@
         "name": "Simon"
       },
       "category": "productivity",
-      "tags": ["cli", "ui", "development", "tools"]
+      "tags": [
+        "cli",
+        "ui",
+        "development",
+        "tools"
+      ]
+    },
+    {
+      "name": "video-digest",
+      "source": "./plugins/video-digest",
+      "description": "Build a shareable web digest (TL;DR, takeaways, slides + narration) from talks/conferences/playlists/videos. Umbrella skill: ingest, segment, summarize, slides, site.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Simon"
+      },
+      "category": "creative",
+      "tags": [
+        "video",
+        "digest",
+        "transcription",
+        "whisper",
+        "summarization",
+        "slides"
+      ]
     }
   ]
 }
